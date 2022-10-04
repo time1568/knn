@@ -23,18 +23,18 @@ struct students student[11];
 int main(){
     
     float dt[10] = {};
-    strcpy(student[0].name,"Key");
-    strcpy(student[1].name,"Jake");
-    strcpy(student[2].name,"Brondy");
-    strcpy(student[3].name,"Jane");
-    strcpy(student[4].name,"Arthur");
-    strcpy(student[5].name,"Kleve");
-    strcpy(student[6].name,"Kristy");
-    strcpy(student[7].name,"Monrow");
-    strcpy(student[8].name,"Evie");
-    strcpy(student[9].name,"Victor");
+    strcpy(student[0].name, "Key");
+    strcpy(student[1].name, "Jake");
+    strcpy(student[2].name, "Brondy");
+    strcpy(student[3].name, "Jane");
+    strcpy(student[4].name, "Arthur");
+    strcpy(student[5].name, "Kleve");
+    strcpy(student[6].name, "Kristy");
+    strcpy(student[7].name, "Monrow");
+    strcpy(student[8].name, "Evie");
+    strcpy(student[9].name, "Victor");
     
-    strcpy(student[10].name,"Sam");
+    strcpy(student[10].name, "Sam");
     
     strcpy(student[0].type,"ENFJ");
     strcpy(student[1].type,"ENFP");
@@ -49,28 +49,28 @@ int main(){
 
     strcpy(student[10].type,"ISTJ");
 
-    student[0].Ne,student[0].Ni,student[0].Te,student[0].Ti,student[0].Se,student[0].Si,student[0].Fe,student[0].Fi = 28.2,22,20,30,27,27,27,20;
-    student[1].Ne,student[1].Ni,student[1].Te,student[1].Ti,student[1].Se,student[1].Si,student[1].Fe,student[1].Fi = 40.2,30,31,30,32,36,37,40;
-    student[2].Ne,student[2].Ni,student[2].Te,student[2].Ti,student[2].Se,student[2].Si,student[2].Fe,student[2].Fi = 41.6,36.6,25,18,27,32,32,40;
-    student[3].Ne,student[3].Ni,student[3].Te,student[3].Ti,student[3].Se,student[3].Si,student[3].Fe,student[3].Fi = 26,25,24,36,33,33,26,21;
-    student[4].Ne,student[4].Ni,student[4].Te,student[4].Ti,student[4].Se,student[4].Si,student[4].Fe,student[4].Fi = 37.4,31.427,38,22,30,43,28;
-    student[5].Ne,student[5].Ni,student[5].Te,student[5].Ti,student[5].Se,student[5].Si,student[5].Fe,student[5].Fi = 28.4,31.2,18,25,21,24,22,18;
-    student[6].Ne,student[6].Ni,student[6].Te,student[6].Ti,student[6].Se,student[6].Si,student[6].Fe,student[6].Fi = 39.4,34,26,24,30,37,30,32;
-    student[7].Ne,student[7].Ni,student[7].Te,student[7].Ti,student[7].Se,student[7].Si,student[7].Fe,student[7].Fi = 29.6,28.6,27,23,28,27,23,30;
-    student[8].Ne,student[8].Ni,student[8].Te,student[8].Ti,student[8].Se,student[8].Si,student[8].Fe,student[8].Fi = 25,25,21,27,21,27,23,24;
-    student[9].Ne,student[9].Ni,student[9].Te,student[9].Ti,student[9].Se,student[9].Si,student[9].Fe,student[9].Fi = 24.8,21.8,27,35,2836,27,22;
+    student[0].Ne, student[0].Ni,student[0].Te, student[0].Ti,student[0].Se, student[0].Si, student[0].Fe, student[0].Fi = 28.2,22,20,30,27,27,27,20;
+    student[1].Ne, student[1].Ni,student[1].Te, student[1].Ti,student[1].Se, student[1].Si, student[1].Fe, student[1].Fi = 40.2,30,31,30,32,36,37,40;
+    student[2].Ne, student[2].Ni,student[2].Te, student[2].Ti,student[2].Se, student[2].Si, student[2].Fe, student[2].Fi = 41.6,36.6,25,18,27,32,32,40;
+    student[3].Ne, student[3].Ni,student[3].Te, student[3].Ti,student[3].Se, student[3].Si, student[3].Fe, student[3].Fi = 26,25,24,36,33,33,26,21;
+    student[4].Ne, student[4].Ni,student[4].Te, student[4].Ti,student[4].Se, student[4].Si, student[4].Fe, student[4].Fi = 37.4,31.427,38,22,30,43,28;
+    student[5].Ne, student[5].Ni,student[5].Te, student[5].Ti,student[5].Se, student[5].Si, student[5].Fe, student[5].Fi = 28.4,31.2,18,25,21,24,22,18;
+    student[6].Ne, student[6].Ni,student[6].Te, student[6].Ti,student[6].Se, student[6].Si, student[6].Fe, student[6].Fi = 39.4,34,26,24,30,37,30,32;
+    student[7].Ne, student[7].Ni,student[7].Te, student[7].Ti,student[7].Se, student[7].Si, student[7].Fe, student[7].Fi = 29.6,28.6,27,23,28,27,23,30;
+    student[8].Ne, student[8].Ni,student[8].Te, student[8].Ti,student[8].Se, student[8].Si, student[8].Fe, student[8].Fi = 25,25,21,27,21,27,23,24;
+    student[9].Ne, student[9].Ni,student[9].Te, student[9].Ti,student[9].Se, student[9].Si, student[9].Fe, student[9].Fi = 24.8,21.8,27,35,2836,27,22;
 
-    student[10].Ne,student[10].Ni,student[10].Te,student[10].Ti,student[10].Se,student[10].Si,student[10].Fe,student[10].Fi = 35,27.8,27,40,39,38,41,33;
+    student[10].Ne, student[10].Ni, student[10].Te, student[10].Ti, student[10].Se, student[10].Si, student[10].Fe, student[10].Fi = 35,27.8,27,40,39,38,41,33;
     
-    for(int i = 0;i<10;i++){
-        student[i].distance = sqrt(pow((student[i].Ne-student[10].Ne),2)+
-                                   pow((student[i].Ni-student[10].Ni),2)+
-                                   pow((student[i].Te-student[10].Te),2)+
-                                   pow((student[i].Ti-student[10].Ti),2)+
-                                   pow((student[i].Se-student[10].Se),2)+
-                                   pow((student[i].Si-student[10].Si),2)+
-                                   pow((student[i].Fe-student[10].Fe),2)+
-                                   pow((student[i].Fi-student[10].Fi),2));
+    for(int i = 0; i<10; i++){
+        student[i].distance = sqrt(pow((student[i].Ne-student[10].Ne), 2)+
+                                   pow((student[i].Ni-student[10].Ni), 2)+
+                                   pow((student[i].Te-student[10].Te), 2)+
+                                   pow((student[i].Ti-student[10].Ti), 2)+
+                                   pow((student[i].Se-student[10].Se), 2)+
+                                   pow((student[i].Si-student[10].Si), 2)+
+                                   pow((student[i].Fe-student[10].Fe), 2)+
+                                   pow((student[i].Fi-student[10].Fi), 2));
         dt[i] = student[i].distance;
     }
     
