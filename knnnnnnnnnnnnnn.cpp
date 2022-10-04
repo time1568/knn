@@ -130,11 +130,11 @@ int main(){
     cout<< student[index_min5].name<< " is "<< min5<<  " away from me. "<< endl;
     cout<< "----------------------------------------\n"<< endl;
     
-    cout<< student[index_min1].name<< " has type "<< student[index_min1].type<< " "<< endl;
-    cout<< student[index_min2].name<< " has type "<< student[index_min2].type<< " "<< endl;
-    cout<< student[index_min3].name<< " has type "<< student[index_min3].type<< " "<< endl;
-    cout<< student[index_min4].name<< " has type "<< student[index_min4].type<< " "<< endl;
-    cout<< student[index_min5].name<< " has type "<< student[index_min5].type<< " "<< endl;
+    cout<< student[index_min1].name<< " is an "<< student[index_min1].type<< ". "<< endl;
+    cout<< student[index_min2].name<< " is an "<< student[index_min2].type<< "."<< endl;
+    cout<< student[index_min3].name<< " is an "<< student[index_min3].type<< ". "<< endl;
+    cout<< student[index_min4].name<< " is an "<< student[index_min4].type<< ". "<< endl;
+    cout<< student[index_min5].name<< " is an "<< student[index_min5].type<< ". "<< endl;
     cout<< "----------------------------------------\n"<< endl;
 
     Type1[0] = student[index_min1].type[0];
@@ -173,6 +173,6 @@ int main(){
     std::sort(Type4, Type4+arraysize4);
     myType += Type4[3];
     
-   cout << "My type should be " << myType << endl;
-   cout << "My real type is " << student[10].type << endl;
+   cout << "My type should be " << myType << ". "<< endl;
+   cout << "My real type is " << student[10].type<< ". " << endl;
 }
