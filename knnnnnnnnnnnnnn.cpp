@@ -63,14 +63,9 @@ int main(){
     student[10].Ne, student[10].Ni, student[10].Te, student[10].Ti, student[10].Se, student[10].Si, student[10].Fe, student[10].Fi = 35,27.8,27,40,39,38,41,33;
     
     for(int i = 0; i<10; i++){
-        student[i].distance = sqrt(pow((student[i].Ne-student[10].Ne), 2)+
-                                   pow((student[i].Ni-student[10].Ni), 2)+
-                                   pow((student[i].Te-student[10].Te), 2)+
-                                   pow((student[i].Ti-student[10].Ti), 2)+
-                                   pow((student[i].Se-student[10].Se), 2)+
-                                   pow((student[i].Si-student[10].Si), 2)+
-                                   pow((student[i].Fe-student[10].Fe), 2)+
-                                   pow((student[i].Fi-student[10].Fi), 2));
+        student[i].distance = sqrt(pow((student[i].Ne-student[10].Ne), 2)+ pow((student[i].Ni-student[10].Ni), 2)+ pow((student[i].Te-student[10].Te), 2)+
+                                   pow((student[i].Ti-student[10].Ti), 2)+ pow((student[i].Se-student[10].Se), 2)+ pow((student[i].Si-student[10].Si), 2)+
+                                   pow((student[i].Fe-student[10].Fe), 2)+ pow((student[i].Fi-student[10].Fi), 2));
         dt[i] = student[i].distance;
     }
     
